@@ -1,8 +1,8 @@
 {
-  "name": "DiscordAuther",
-  "version": "1.0.0",
+  "name": "discordauther",
+  "version": "1.0.11",
   "description": "A simple, small, yet useful utility tool for verifying authenticated user's Discord identity.",
-  "readme": "https://github.com/TeamCernodile/DiscordAuther/blob/master/README.md",
+  "readme": "# DiscordAuther\nA simple, small, yet useful utility tool for verifying authenticated user's Discord identity.\n\n## Usage\n\n```js\nvar Auther = require('discordauther');\nvar session = new Auther('d0Bfl3FlzvVZX20CmWFls');\n// Takes the recieved bearer token as first param\nsession.on('ready', s => {  \nconsole.log(s);\n});\nsession.on('error', e => {  \nconsole.log(e);\n});\n```",
   "author": {
     "name": "Joann Mõndresku",
     "email": "joann@cernodile.com",
