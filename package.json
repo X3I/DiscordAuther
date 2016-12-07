@@ -1,0 +1,20 @@
+{
+  "name": "DiscordAuther",
+  "version": "1.0.0",
+  "description": "A simple, small, yet useful utility tool for verifying authenticated user's Discord identity.",
+  "readme": "https://github.com/TeamCernodile/DiscordAuther/blob/master/README.md",
+  "author": {
+    "name": "Joann Mõndresku",
+    "email": "joann@cernodile.com",
+    "url": "https://www.cernodile.com"
+  },
+  "engines": {
+    "node": "^5.x.x",
+    "npm": ">=3.x.x"
+  },
+  "license": "GPL-3.0",
+  "repository": "https://github.com/TeamCernodile/DiscordAuther/",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
