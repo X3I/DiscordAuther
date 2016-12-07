@@ -7,11 +7,10 @@ A simple, small, yet useful utility tool for verifying authenticated user's Disc
 var Auther = require('discordauther');
 var session = new Auther('d0Bfl3FlzvVZX20CmWFls');
 // Takes the recieved bearer token as first param
-
-setTimeout(() => {
-  // Wait about 2 seconds or longer for request to finish processing.
-  console.log(session);
-  // This should output the Auther class object, including the important information you were looking for.
-}, 2500)
+session.on('ready', s => {
+  console.log(s);
+});
+session.on('error', e => {
+  console.log(e);
+});
 ```
-If you want me to make it evented (e.g. `Auther.on('ready', obj => {});`), let me know, shouldn't be that hard.
