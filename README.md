@@ -3,7 +3,7 @@ A simple, small, yet useful utility tool for verifying authenticated user's Disc
 
 ## Usage
 
-```
+```js
 var Auther = require('discordauther');
 var session = new Auther('d0Bfl3FlzvVZX20CmWFls');
 // Takes the recieved bearer token as first param
